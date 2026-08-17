@@ -1,0 +1,5 @@
+.DS_Store
+test_shot_images/
+*.zip
+__pycache__/
+*.pyc

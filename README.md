@@ -28,8 +28,3 @@ numbers against those labels.
 
 Full design rationale, validation results, and known gaps: see
 [`docs/superpowers/specs/2026-08-17-test-shot-detection-design.md`](docs/superpowers/specs/2026-08-17-test-shot-detection-design.md).
-
-Also in `src/`: `generate_mobilenet_embeddings.py` (mirrors the production backend's
-mobilenet embedding computation) and `visual_rejection_sample.py` (probes an
-existing TinyViT visual-rejection model as a candidate signal — found to be too
-confounded by dark/low-light scenes to use standalone; see the spec for numbers).

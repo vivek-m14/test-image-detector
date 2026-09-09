@@ -36,8 +36,8 @@ import numpy as np
 
 # -- Score A: exposure clipping --------------------------------------------------
 EDGE_REF = 30.0     # typical Sobel edge energy for a detailed photo
-MEAN_REF = 70.0     # mean luminance below which darkness starts counting as significant
-DARK_THRESH = 12    # pixel value below which a pixel counts as "clipped black"
+MEAN_REF = 12.0     # mean luminance below which darkness starts counting as significant
+DARK_THRESH = 3     # pixel value below which a pixel counts as "clipped black"
 BRIGHT_THRESH = 244 # pixel value above which a pixel counts as "clipped white"
 
 # -- Score B: no-subject / generic content ---------------------------------------

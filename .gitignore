@@ -1,5 +1,6 @@
 .DS_Store
 test_shot_images/
+oneStar_review/
 *.zip
 __pycache__/
 *.pyc
